@@ -4,13 +4,13 @@ body{
 }
 
 .container {
-  width: 70%;
+  width: 200%;
   margin: auto;
 }
 
 .icon-area ul{
   list-style: none;
-  /"margin-top: 50px;"/
+ 
 }
 
 .icon-area ul li{
@@ -19,8 +19,104 @@ body{
 
 .icon-area ul li a{
   background: #fff;
-  padding: 30px 40px;
+  color: purple;
+  padding: 15px 20px;
   display: block;
-  font-size: 40px;
-  border-radius: 10px;
+  font-size: 25px;
+  border-radius: 110px;
+}
+
+.icon-area ul li a:hover {
+    background: gray;
+    color: blue;
+    border-radius: 25% ;
+}
+
+.icon-area1 ul{
+  list-style: none;
+}
+  
+.icon-area1 ul li{
+  display: inline-block;
+}
+
+.icon-area1 ul li a{
+  background: olive;
+  padding: 10px 20px;
+  display: block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.icon-area1 ul li a:hover {
+    background: tomato;
+    color: blue;
+    border-radius: 20px 10px 20px 10px ;
+}
+
+.icon-area2 ul{
+  list-style: none;
+}
+
+.icon-area2 ul li{
+  display: inline-block;
+}
+
+.icon-area2 ul li a{
+  background: pink;
+  padding: 10px 20px;
+  display: block;
+  font-size: 30px;
+  border-radius: 100px;
+}
+
+.icon-area2 ul li a:hover {
+    background: tomato;
+    color: blue;
+    border-radius: 50% ;
+}
+
+.icon-area3 ul{
+  list-style: none;
+}
+
+.icon-area3 ul li{
+  display: inline-block;
+}
+
+.icon-area3 ul li a{
+  background: yellow;
+  padding: 10px 20px;
+  display: block;
+  font-size: 30px;
+  border-radius: 100px;
+}
+
+.icon-area3 ul li a:hover{
+  background: red;
+  color: green;
+  border-radius: 20px 30px 40px 60px;
+}
+
+.icon-area4 ul{
+  list-style: none;
+} 
+
+.icon-area4 ul li{
+  display: inline-block;
+}
+
+.icon-area4 ul li a{
+  background: #896407;
+  padding: 10px 20px;
+  display: block;
+  font-size: 30px;
+  border-radius: 35%;
+  
+}
+
+.icon-area4 ul li a:hover{
+  background: blue;
+  color: #983467;
+  border-radius: 35px 45px;
 }
